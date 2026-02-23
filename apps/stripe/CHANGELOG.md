@@ -1,5 +1,18 @@
 # saleor-app-payment-stripe
 
+## 2.4.4
+
+### Patch Changes
+
+- c1cbffb4: Applied "consistent imports" rule from ESLint to ensure type-only imports are marked with `import type` clause. This should improve tree shaking and reduce side effects
+- 041e6065: Verify if webhooks are connected to the original app installation that executed the payment intent
+  - @saleor/apps-logger@1.6.3
+  - @saleor/apps-otel@2.4.0
+  - @saleor/react-hook-form-macaw@0.2.16
+  - @saleor/apps-shared@1.14.1
+  - @saleor/apps-trpc@4.0.4
+  - @saleor/apps-ui@1.3.2
+
 ## 2.4.3
 
 ### Patch Changes

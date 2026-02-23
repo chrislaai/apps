@@ -1,5 +1,20 @@
 # saleor-app-payment-np-atobarai
 
+## 1.3.6
+
+### Patch Changes
+
+- c1cbffb4: Applied "consistent imports" rule from ESLint to ensure type-only imports are marked with `import type` clause. This should improve tree shaking and reduce side effects
+  - @saleor/apps-domain@1.0.2
+  - @saleor/dynamo-config-repository@1.0.2
+  - @saleor/errors@1.0.1
+  - @saleor/apps-logger@1.6.3
+  - @saleor/apps-otel@2.4.0
+  - @saleor/react-hook-form-macaw@0.2.16
+  - @saleor/apps-shared@1.14.1
+  - @saleor/apps-trpc@4.0.4
+  - @saleor/apps-ui@1.3.2
+
 ## 1.3.5
 
 ### Patch Changes
